@@ -1,0 +1,187 @@
+
+\documentclass[10pt,a4paper]{article}
+\usepackage{geometry}
+\geometry{margin=0.25in}
+\usepackage{fontspec}
+\usepackage{longtable}
+\usepackage[table]{xcolor}
+\usepackage{booktabs}
+\usepackage{array}
+
+% Fonts
+\setmonofont{JetBrainsMono Nerd Font}[Scale=MatchLowercase]
+\newfontfamily\copticfont{Noto Sans Coptic}[Scale=MatchLowercase]
+\newfontfamily\diacriticfont{Noto Sans}[Scale=MatchLowercase]
+
+\newcommand{\coptic}[1]{{\copticfont #1}}
+\newcommand{\diacritic}[1]{{\diacriticfont #1}}
+
+% Table formatting
+\newcolumntype{C}{>{\centering\arraybackslash}p{2.5cm}}
+\newcolumntype{L}{>{\raggedright\arraybackslash}p{10cm}}
+
+\title{Coptic Letters}
+\author{Youssef Adly}
+\date{15 August 2025}
+
+\begin{document}
+\maketitle
+
+% Alternating row colors
+\rowcolors{2}{gray!15}{white}
+
+\begin{longtable}{C C L}
+\toprule
+Codepoint & Glyph & Unicode Name \\
+\midrule
+\endfirsthead
+
+\toprule
+Codepoint & Glyph & Unicode Name \\
+\midrule
+\endhead
+
+\texttt{U+2C80} & \coptic{Ⲁ} & COPTIC CAPITAL LETTER ALFA \\
+\texttt{U+2C81} & \coptic{ⲁ} & COPTIC SMALL LETTER ALFA \\
+\texttt{U+2C82} & \coptic{Ⲃ} & COPTIC CAPITAL LETTER VIDA \\
+\texttt{U+2C83} & \coptic{ⲃ} & COPTIC SMALL LETTER VIDA \\
+\texttt{U+2C84} & \coptic{Ⲅ} & COPTIC CAPITAL LETTER GAMMA \\
+\texttt{U+2C85} & \coptic{ⲅ} & COPTIC SMALL LETTER GAMMA \\
+\texttt{U+2C86} & \coptic{Ⲇ} & COPTIC CAPITAL LETTER DALDA \\
+\texttt{U+2C87} & \coptic{ⲇ} & COPTIC SMALL LETTER DALDA \\
+\texttt{U+2C88} & \coptic{Ⲉ} & COPTIC CAPITAL LETTER EIE \\
+\texttt{U+2C89} & \coptic{ⲉ} & COPTIC SMALL LETTER EIE \\
+\texttt{U+2C8A} & \coptic{Ⲋ} & COPTIC CAPITAL LETTER SOU \\
+\texttt{U+2C8B} & \coptic{ⲋ} & COPTIC SMALL LETTER SOU \\
+\texttt{U+2C8C} & \coptic{Ⲍ} & COPTIC CAPITAL LETTER ZATA \\
+\texttt{U+2C8D} & \coptic{ⲍ} & COPTIC SMALL LETTER ZATA \\
+\texttt{U+2C8E} & \coptic{Ⲏ} & COPTIC CAPITAL LETTER HATE \\
+\texttt{U+2C8F} & \coptic{ⲏ} & COPTIC SMALL LETTER HATE \\
+\texttt{U+2C90} & \coptic{Ⲑ} & COPTIC CAPITAL LETTER THETHE \\
+\texttt{U+2C91} & \coptic{ⲑ} & COPTIC SMALL LETTER THETHE \\
+\texttt{U+2C92} & \coptic{Ⲓ} & COPTIC CAPITAL LETTER IAUDA \\
+\texttt{U+2C93} & \coptic{ⲓ} & COPTIC SMALL LETTER IAUDA \\
+\texttt{U+2C94} & \coptic{Ⲕ} & COPTIC CAPITAL LETTER KAPA \\
+\texttt{U+2C95} & \coptic{ⲕ} & COPTIC SMALL LETTER KAPA \\
+\texttt{U+2C96} & \coptic{Ⲗ} & COPTIC CAPITAL LETTER LAULA \\
+\texttt{U+2C97} & \coptic{ⲗ} & COPTIC SMALL LETTER LAULA \\
+\texttt{U+2C98} & \coptic{Ⲙ} & COPTIC CAPITAL LETTER MI \\
+\texttt{U+2C99} & \coptic{ⲙ} & COPTIC SMALL LETTER MI \\
+\texttt{U+2C9A} & \coptic{Ⲛ} & COPTIC CAPITAL LETTER NI \\
+\texttt{U+2C9B} & \coptic{ⲛ} & COPTIC SMALL LETTER NI \\
+\texttt{U+2C9C} & \coptic{Ⲝ} & COPTIC CAPITAL LETTER KSI \\
+\texttt{U+2C9D} & \coptic{ⲝ} & COPTIC SMALL LETTER KSI \\
+\texttt{U+2C9E} & \coptic{Ⲟ} & COPTIC CAPITAL LETTER O \\
+\texttt{U+2C9F} & \coptic{ⲟ} & COPTIC SMALL LETTER O \\
+\texttt{U+2CA0} & \coptic{Ⲡ} & COPTIC CAPITAL LETTER PI \\
+\texttt{U+2CA1} & \coptic{ⲡ} & COPTIC SMALL LETTER PI \\
+\texttt{U+2CA2} & \coptic{Ⲣ} & COPTIC CAPITAL LETTER RO \\
+\texttt{U+2CA3} & \coptic{ⲣ} & COPTIC SMALL LETTER RO \\
+\texttt{U+2CA4} & \coptic{Ⲥ} & COPTIC CAPITAL LETTER SIMA \\
+\texttt{U+2CA5} & \coptic{ⲥ} & COPTIC SMALL LETTER SIMA \\
+\texttt{U+2CA6} & \coptic{Ⲧ} & COPTIC CAPITAL LETTER TAU \\
+\texttt{U+2CA7} & \coptic{ⲧ} & COPTIC SMALL LETTER TAU \\
+\texttt{U+2CA8} & \coptic{Ⲩ} & COPTIC CAPITAL LETTER UA \\
+\texttt{U+2CA9} & \coptic{ⲩ} & COPTIC SMALL LETTER UA \\
+\texttt{U+2CAA} & \coptic{Ⲫ} & COPTIC CAPITAL LETTER FI \\
+\texttt{U+2CAB} & \coptic{ⲫ} & COPTIC SMALL LETTER FI \\
+\texttt{U+2CAC} & \coptic{Ⲭ} & COPTIC CAPITAL LETTER KHI \\
+\texttt{U+2CAD} & \coptic{ⲭ} & COPTIC SMALL LETTER KHI \\
+\texttt{U+2CAE} & \coptic{Ⲯ} & COPTIC CAPITAL LETTER PSI \\
+\texttt{U+2CAF} & \coptic{ⲯ} & COPTIC SMALL LETTER PSI \\
+\texttt{U+2CB0} & \coptic{Ⲱ} & COPTIC CAPITAL LETTER OOU \\
+\texttt{U+2CB1} & \coptic{ⲱ} & COPTIC SMALL LETTER OOU \\
+\texttt{U+03E2} & \coptic{Ϣ} & COPTIC CAPITAL LETTER SHEI \\
+\texttt{U+03E3} & \coptic{ϣ} & COPTIC SMALL LETTER SHEI \\
+\texttt{U+03E4} & \coptic{Ϥ} & COPTIC CAPITAL LETTER FEI \\
+\texttt{U+03E5} & \coptic{ϥ} & COPTIC SMALL LETTER FEI \\
+\texttt{U+03E6} & \coptic{Ϧ} & COPTIC CAPITAL LETTER KHEI \\
+\texttt{U+03E7} & \coptic{ϧ} & COPTIC SMALL LETTER KHEI \\
+\texttt{U+03E8} & \coptic{Ϩ} & COPTIC CAPITAL LETTER HORI \\
+\texttt{U+03E9} & \coptic{ϩ} & COPTIC SMALL LETTER HORI \\
+\texttt{U+03EA} & \coptic{Ϫ} & COPTIC CAPITAL LETTER GANGIA \\
+\texttt{U+03EB} & \coptic{ϫ} & COPTIC SMALL LETTER GANGIA \\
+\texttt{U+03EC} & \coptic{Ϭ} & COPTIC CAPITAL LETTER SHIMA \\
+\texttt{U+03ED} & \coptic{ϭ} & COPTIC SMALL LETTER SHIMA \\
+\texttt{U+03EE} & \coptic{Ϯ} & COPTIC CAPITAL LETTER DEI \\
+\texttt{U+03EF} & \coptic{ϯ} & COPTIC SMALL LETTER DEI \\
+\texttt{U+2CB2} & \coptic{Ⲳ} & COPTIC CAPITAL LETTER DIALECT-P ALEF \\
+\texttt{U+2CB3} & \coptic{ⲳ} & COPTIC SMALL LETTER DIALECT-P ALEF \\
+\texttt{U+2CB4} & \coptic{Ⲵ} & COPTIC CAPITAL LETTER OLD COPTIC AIN \\
+\texttt{U+2CB5} & \coptic{ⲵ} & COPTIC SMALL LETTER OLD COPTIC AIN \\
+\texttt{U+2CB6} & \coptic{Ⲷ} & COPTIC CAPITAL LETTER CRYPTOGRAMMIC EIE \\
+\texttt{U+2CB7} & \coptic{ⲷ} & COPTIC SMALL LETTER CRYPTOGRAMMIC EIE \\
+\texttt{U+2CB8} & \coptic{Ⲹ} & COPTIC CAPITAL LETTER DIALECT-P KAPA \\
+\texttt{U+2CB9} & \coptic{ⲹ} & COPTIC SMALL LETTER DIALECT-P KAPA \\
+\texttt{U+2CBA} & \coptic{Ⲻ} & COPTIC CAPITAL LETTER DIALECT-P NI \\
+\texttt{U+2CBB} & \coptic{ⲻ} & COPTIC SMALL LETTER DIALECT-P NI \\
+\texttt{U+2CBC} & \coptic{Ⲽ} & COPTIC CAPITAL LETTER CRYPTOGRAMMIC NI \\
+\texttt{U+2CBD} & \coptic{ⲽ} & COPTIC SMALL LETTER CRYPTOGRAMMIC NI \\
+\texttt{U+2CBE} & \coptic{Ⲿ} & COPTIC CAPITAL LETTER OLD COPTIC OOU \\
+\texttt{U+2CBF} & \coptic{ⲿ} & COPTIC SMALL LETTER OLD COPTIC OOU \\
+\texttt{U+2CC0} & \coptic{Ⳁ} & COPTIC CAPITAL LETTER SAMPI \\
+\texttt{U+2CC1} & \coptic{ⳁ} & COPTIC SMALL LETTER SAMPI \\
+\texttt{U+2CC2} & \coptic{Ⳃ} & COPTIC CAPITAL LETTER CROSSED SHEI \\
+\texttt{U+2CC3} & \coptic{ⳃ} & COPTIC SMALL LETTER CROSSED SHEI \\
+\texttt{U+2CC4} & \coptic{Ⳅ} & COPTIC CAPITAL LETTER OLD COPTIC SHEI \\
+\texttt{U+2CC5} & \coptic{ⳅ} & COPTIC SMALL LETTER OLD COPTIC SHEI \\
+\texttt{U+2CC6} & \coptic{Ⳇ} & COPTIC CAPITAL LETTER OLD COPTIC ESH \\
+\texttt{U+2CC7} & \coptic{ⳇ} & COPTIC SMALL LETTER OLD COPTIC ESH \\
+\texttt{U+2CC8} & \coptic{Ⳉ} & COPTIC CAPITAL LETTER AKHMIMIC KHEI \\
+\texttt{U+2CC9} & \coptic{ⳉ} & COPTIC SMALL LETTER AKHMIMIC KHEI \\
+\texttt{U+2CCA} & \coptic{Ⳋ} & COPTIC CAPITAL LETTER DIALECT-P HORI \\
+\texttt{U+2CCB} & \coptic{ⳋ} & COPTIC SMALL LETTER DIALECT-P HORI \\
+\texttt{U+2CCC} & \coptic{Ⳍ} & COPTIC CAPITAL LETTER OLD COPTIC HORI \\
+\texttt{U+2CCD} & \coptic{ⳍ} & COPTIC SMALL LETTER OLD COPTIC HORI \\
+\texttt{U+2CCE} & \coptic{Ⳏ} & COPTIC CAPITAL LETTER OLD COPTIC HA \\
+\texttt{U+2CCF} & \coptic{ⳏ} & COPTIC SMALL LETTER OLD COPTIC HA \\
+\texttt{U+2CD0} & \coptic{Ⳑ} & COPTIC CAPITAL LETTER L-SHAPED HA \\
+\texttt{U+2CD1} & \coptic{ⳑ} & COPTIC SMALL LETTER L-SHAPED HA \\
+\texttt{U+2CD2} & \coptic{Ⳓ} & COPTIC CAPITAL LETTER OLD COPTIC HEI \\
+\texttt{U+2CD3} & \coptic{ⳓ} & COPTIC SMALL LETTER OLD COPTIC HEI \\
+\texttt{U+2CD4} & \coptic{Ⳕ} & COPTIC CAPITAL LETTER OLD COPTIC HAT \\
+\texttt{U+2CD5} & \coptic{ⳕ} & COPTIC SMALL LETTER OLD COPTIC HAT \\
+\texttt{U+2CD6} & \coptic{Ⳗ} & COPTIC CAPITAL LETTER OLD COPTIC GANGIA \\
+\texttt{U+2CD7} & \coptic{ⳗ} & COPTIC SMALL LETTER OLD COPTIC GANGIA \\
+\texttt{U+2CD8} & \coptic{Ⳙ} & COPTIC CAPITAL LETTER OLD COPTIC DJA \\
+\texttt{U+2CD9} & \coptic{ⳙ} & COPTIC SMALL LETTER OLD COPTIC DJA \\
+\texttt{U+2CDA} & \coptic{Ⳛ} & COPTIC CAPITAL LETTER OLD COPTIC SHIMA \\
+\texttt{U+2CDB} & \coptic{ⳛ} & COPTIC SMALL LETTER OLD COPTIC SHIMA \\
+\texttt{U+2CDC} & \coptic{Ⳝ} & COPTIC CAPITAL LETTER OLD NUBIAN SHIMA \\
+\texttt{U+2CDD} & \coptic{ⳝ} & COPTIC SMALL LETTER OLD NUBIAN SHIMA \\
+\texttt{U+2CDE} & \coptic{Ⳟ} & COPTIC CAPITAL LETTER OLD NUBIAN NGI \\
+\texttt{U+2CDF} & \coptic{ⳟ} & COPTIC SMALL LETTER OLD NUBIAN NGI \\
+\texttt{U+2CE0} & \coptic{Ⳡ} & COPTIC CAPITAL LETTER OLD NUBIAN NYI \\
+\texttt{U+2CE1} & \coptic{ⳡ} & COPTIC SMALL LETTER OLD NUBIAN NYI \\
+\texttt{U+2CE2} & \coptic{Ⳣ} & COPTIC CAPITAL LETTER OLD NUBIAN WAU \\
+\texttt{U+2CE3} & \coptic{ⳣ} & COPTIC SMALL LETTER OLD NUBIAN WAU \\
+\texttt{U+2CE4} & \coptic{ⳤ} & COPTIC SYMBOL KAI \\
+\texttt{U+2CE5} & \coptic{⳥} & COPTIC SYMBOL MI RO \\
+\texttt{U+2CE6} & \coptic{⳦} & COPTIC SYMBOL PI RO \\
+\texttt{U+2CE7} & \coptic{⳧} & COPTIC SYMBOL STAUROS \\
+\texttt{U+2CE8} & \coptic{⳨} & COPTIC SYMBOL TAU RO \\
+\texttt{U+2CE9} & \coptic{⳩} & COPTIC SYMBOL KHI RO \\
+\texttt{U+2CEA} & \coptic{⳪} & COPTIC SYMBOL SHIMA SIMA \\
+\texttt{U+2CEB} & \coptic{Ⳬ} & COPTIC CAPITAL LETTER CRYPTOGRAMMIC SHEI \\
+\texttt{U+2CEC} & \coptic{ⳬ} & COPTIC SMALL LETTER CRYPTOGRAMMIC SHEI \\
+\texttt{U+2CED} & \coptic{Ⳮ} & COPTIC CAPITAL LETTER CRYPTOGRAMMIC GANGIA \\
+\texttt{U+2CEE} & \coptic{ⳮ} & COPTIC SMALL LETTER CRYPTOGRAMMIC GANGIA \\
+\texttt{U+2CEF} & \coptic{⳯} & COPTIC COMBINING NI ABOVE \\
+\texttt{U+2CF0} & \coptic{⳰} & COPTIC COMBINING SPIRITUS ASPER \\
+\texttt{U+2CF1} & \coptic{⳱} & COPTIC COMBINING SPIRITUS LENIS \\
+\texttt{U+2CF2} & \coptic{Ⳳ} & COPTIC CAPITAL LETTER BOHAIRIC KHEI \\
+\texttt{U+2CF3} & \coptic{ⳳ} & COPTIC SMALL LETTER BOHAIRIC KHEI \\
+\texttt{U+2CF9} & \coptic{⳹} & COPTIC OLD NUBIAN FULL STOP \\
+\texttt{U+2CFA} & \coptic{⳺} & COPTIC OLD NUBIAN DIRECT QUESTION MARK \\
+\texttt{U+2CFB} & \coptic{⳻} & COPTIC OLD NUBIAN INDIRECT QUESTION MARK \\
+\texttt{U+2CFC} & \coptic{⳼} & COPTIC OLD NUBIAN VERSE DIVIDER \\
+\texttt{U+2CFD} & \coptic{⳽} & COPTIC FRACTION ONE HALF \\
+\texttt{U+2CFE} & \coptic{⳾} & COPTIC FULL STOP \\
+\texttt{U+2CFF} & \coptic{⳿} & COPTIC MORPHOLOGICAL DIVIDER \\
+\texttt{U+0305} & \diacritic{̅} & COMBINING OVERLINE \\
+\texttt{U+0306} & \diacritic{̆} & COMBINING BREVE \\
+\texttt{U+0307} & \diacritic{̇} & COMBINING DOT ABOVE \\
+
+\bottomrule
+\end{longtable}
+\end{document}
