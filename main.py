@@ -26,57 +26,67 @@ ROW_HEADERS = {
 
 # Key mapping: (label, level1, level2, level3, level4)
 mapping = {
-    "<TLDE>": ("`", None, None, None, None),
+    "<TLDE>": ("`", "U0307", "U0305", "U0306", None),
     # Number row
-    "<AE01>": ("1", None, None, None, None),
-    "<AE02>": ("2", None, None, None, None),
-    "<AE03>": ("3", None, None, None, None),
-    "<AE04>": ("4", None, None, None, None),
-    "<AE05>": ("5", None, None, None, None),
-    "<AE06>": ("6", None, None, None, None),
-    "<AE07>": ("7", None, None, None, None),
-    "<AE08>": ("8", None, None, None, None),
-    "<AE09>": ("9", None, None, None, None),
-    "<AE10>": ("0", None, None, None, None),
-    "<AE11>": ("-", None, None, None, None),
-    "<AE12>": ("=", None, None, None, None),
+    "<AE01>": ("1", "1", "exclam", None, None),
+    "<AE02>": ("2", "2", "at", None, None),
+    "<AE03>": ("3", "3", "numbersign", None, None),
+    "<AE04>": ("4", "4", "dollar", None, None),
+    "<AE05>": ("5", "5", "percent", None, None),
+    "<AE06>": ("6", "6", "asciicircum", None, None),
+    "<AE07>": ("7", "7", "ampersand", None, None),
+    "<AE08>": ("8", "8", "asterisk", None, None),
+    "<AE09>": ("9", "9", "parenleft", None, None),
+    "<AE10>": ("0", "0", "parenright", None, None),
+    "<AE11>": ("-", "minus", "underscore", None, None),
+    "<AE12>": ("=", "equal", "plus", None, None),
     # Top row
-    "<AD01>": ("Q", None, None, None, None),
-    "<AD02>": ("W", None, None, None, None),
-    "<AD03>": ("E", None, None, None, None),
-    "<AD04>": ("R", None, None, None, None),
-    "<AD05>": ("T", None, None, None, None),
-    "<AD06>": ("Y", None, None, None, None),
-    "<AD07>": ("U", None, None, None, None),
-    "<AD08>": ("I", None, None, None, None),
-    "<AD09>": ("O", None, None, None, None),
-    "<AD10>": ("P", None, None, None, None),
-    "<AD11>": ("[", None, None, None, None),
-    "<AD12>": ("]", None, None, None, None),
+    "<AD01>": ("Q", "U2C91", "U2C90", None, None),
+    "<AD02>": ("W", "U2CB1", "U2CB0", None, None),
+    "<AD03>": ("E", "U2C89", "U2C88", None, None),
+    "<AD04>": ("R", "U2CA3", "U2CA2", None, None),
+    "<AD05>": ("T", "U2CA7", "U2CA6", None, None),
+    "<AD06>": ("Y", "U2CAF", "U2CAE", None, None),
+    "<AD07>": ("U", "U2CA9", "U2CA8", None, None),
+    "<AD08>": ("I", "U2C93", "U2C92", None, None),
+    "<AD09>": ("O", "U2C9F", "U2C9E", None, None),
+    "<AD10>": ("P", "U2CA1", "U2CA0", "U2CE6", None),
+    "<AD11>": ("[", "U2C9D", "U2C9C", None, None),
+    "<AD12>": ("]", "U03E3", "U03E2", None, None),
     # Home row
-    "<AC01>": ("A", None, None, None, None),
-    "<AC02>": ("S", None, None, None, None),
-    "<AC03>": ("D", None, None, None, None),
-    "<AC04>": ("F", None, None, None, None),
-    "<AC05>": ("G", None, None, None, None),
-    "<AC06>": ("H", None, None, None, None),
-    "<AC07>": ("J", None, None, None, None),
-    "<AC08>": ("K", None, None, None, None),
-    "<AC09>": ("L", None, None, None, None),
-    "<AC10>": (";", None, None, None, None),
-    "<AC11>": ("'", None, None, None, None),
+    "<AC01>": ("A", "U2C81", "U2C80", None, None),
+    "<AC02>": ("S", "U03ED", "U03EC", None, None),
+    "<AC03>": ("D", "U2C87", "U2C86", None, None),
+    "<AC04>": ("F", "U03E5", "U03E4", None, None),
+    "<AC05>": ("G", "U2C85", "U2C84", None, None),
+    "<AC06>": ("H", "U2C8F", "U2C8E", None, None),
+    "<AC07>": ("J", "U03EB", "U03EA", None, None),
+    "<AC08>": ("K", "U2C95", "U2C94", "U2CB9", "U2CB8"),
+    "<AC09>": ("L", "U2C97", "U2C96", None, None),
+    "<AC10>": (";", "U03EF", "U03EE", None, None),
+    "<AC11>": ("'", "U03E7", "U03E6", None, None),
     # Bottom row
-    "<AB01>": ("Z", None, None, None, None),
-    "<AB02>": ("X", None, None, None, None),
-    "<AB03>": ("C", None, None, None, None),
-    "<AB04>": ("V", None, None, None, None),
-    "<AB05>": ("B", None, None, None, None),
-    "<AB06>": ("N", None, None, None, None),
-    "<AB07>": ("M", None, None, None, None),
-    "<AB08>": (",", None, None, None, None),
-    "<AB09>": (".", None, None, None, None),
+    "<AB01>": ("Z", "U2C8D", "U2C8C", None, None),
+    "<AB02>": ("X", "U2CAD", "U2CAC", None, None),
+    "<AB03>": ("C", "U2CA5", "U2CA4", None, None),
+    "<AB04>": ("V", "U2CAB", "U2CAA", None, None),
+    "<AB05>": ("B", "U2C83", "U2C82", None, None),
+    "<AB06>": ("N", "U2C9B", "U2C9A", None, None),
+    "<AB07>": ("M", "U2C99", "U2C98", "U2CE5", None),
+    "<AB08>": (",", "U03E9", "U03E8", None, None),
+    "<AB09>": (".", "U2C8B", "U2C8A", None, None),
     "<AB10>": ("/", None, None, None, None),
 }
+
+
+def unicode_to_char(value):
+    """Convert Unicode codepoint string to character, or return as-is if not Unicode format."""
+    if value and value.startswith("U") and len(value) > 1:
+        try:
+            return chr(int(value[1:], 16))
+        except ValueError:
+            return value  # Return as-is if not valid hex
+    return value
 
 
 def generate_xkb_file(mapping_dict, layout_name, layout_title, level3_include):
@@ -105,12 +115,17 @@ def generate_xkb_file(mapping_dict, layout_name, layout_title, level3_include):
         # Comment if row begin
         if key_code in ROW_HEADERS:
             lines.append(f"    // {ROW_HEADERS[key_code]}")
-
+        if not any(values[1:]):
+            continue
         label, *levels = values
         levels_array = [lvl if lvl is not None else "" for lvl in levels]
         levels_str = ", ".join(levels_array).rstrip(", ")
         padding = " " * (array_len - len(levels_str)) if levels_str else ""
-        glyphs = " / ".join(chr(int(l[1:], 16)) for l in levels if l is not None)
+
+        # Generate comment with actual characters (only for Unicode values)
+        glyphs = " / ".join(
+            unicode_to_char(l) for l in levels if l is not None and l.startswith("U")
+        )
         comment = f"{label} -> {glyphs}" if glyphs else f"{label}"
 
         lines.append(
